@@ -21,7 +21,7 @@ jobs:
         run: |
           # 1. Компілюємо додаток без підпису
           xcodebuild build \
-          -scheme "NasaApp" \
+          -scheme "Coursework_NASA" \
           -sdk iphoneos \
           -configuration Release \
           -derivedDataPath build \
